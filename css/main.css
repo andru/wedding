@@ -1,0 +1,146 @@
+html,
+button,
+input,
+select,
+textarea {
+    color: #222;
+}
+
+html {
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+audio,
+canvas,
+img,
+video {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+
+/* @font-face {
+    font-family: "AbrilFatFace";
+    src: url(./Abril_Fatface/AbrilFatface-Regular.otf) format("opentype");
+} */
+@font-face {
+    font-family: 'Sansita Swashed';
+    src: url('./Sansita_Swashed/SansitaSwashed-VariableFont_wght.ttf') format("truetype-variations");
+    font-weight: 1 999;
+  }
+  @font-face {
+    font-family: 'Roboto Slab';
+    src: url('./Roboto_Slab/RobotoSlab-VariableFont_wght.ttf') format("truetype-variations");
+    font-weight: 1 999;
+  }
+body {
+    font: 16px/26px Roboto Slab, Helvetica, Helvetica Neue, Arial;
+    background: #F0F0F0;
+    color: #555;
+    min-height: 100vh;
+    padding-top: 10vh;
+}
+header.main{
+
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Sansita Swashed';
+}
+/* div.cuties {
+    background: url("../images/dresses.jpg") center center no-repeat;
+    background-size: cover;
+} */
+.main h2, .main h3{
+    font-family: Roboto Slab;
+}
+.cuties {
+    height: 50vh;
+    overflow: hidden;
+}
+.cuties img {
+    height: 100%;
+    transform: rotate(5deg);
+}
+
+.card.details {
+    height: initial;
+    margin: 2em;
+    padding: 1em;
+    background: white;
+    align-items: flex-start;
+    max-width: 500px;
+}
+.details h2 {
+    text-align: center;
+    margin: -1em -1em 0;
+    background: #7C9C74;
+    padding: 1em;
+    color: #fff;
+    font-weight: 300;
+    font-size: 2em;
+    line-height: 1.2em;
+}
+
+.map.card h2 {
+    font-size: 2em;
+    color: #7C9C74;
+}
+.map .address {
+    font-weight: bold;
+}
+.map .photo img {
+    width: 300px
+}
+
+.card {
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+@media only screen and (min-width: 480px) {
+
+}
+
+@media only screen and (min-width: 768px) {
+
+}
+
+@media only screen and (min-width: 1140px) {
+
+}
+
+@media print {
+   
+}
